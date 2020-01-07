@@ -1,4 +1,4 @@
-{:deps {commons-codec {:mvn/version "1.13"}
+{:deps {commons-codec {:mvn/version "1.14"}
         lambdaisland/deep-diff {:mvn/version "0.0-47"}
         org.clojure/tools.deps.alpha {:mvn/version "0.8.599"}
         org.slf4j/slf4j-nop {:mvn/version "1.7.30"}}}
