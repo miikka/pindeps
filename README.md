@@ -20,6 +20,11 @@ Problems to be solved, features to be implemented:
 * Maven has some kind of[checksum support][mvn], but it only stores the checksums in the registry.
 * npm's `package-lock.json` files include the `integrity` field. I'm not sure if npm actually verifies it.
 
+My [previous sketch][pinkeys] along the same lines focused on the GPG
+signatures of the packages. However, I'm increasingly thinking that the
+signature approach, as implemented with Maven repositories, is a dead end.
+
+[pinkeys]: https://github.com/miikka/pinkeys
 [ct]: https://www.certificate-transparency.org/what-is-ct
 [mvn]: https://books.sonatype.com/mvnref-book/reference/running-sect-options.html#running-sect-deps-option
 [go]: https://go.googlesource.com/proposal/+/master/design/25530-sumdb.md
